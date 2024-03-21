@@ -601,7 +601,7 @@ footer p{
     }
 
     .mas > button{
-        width: 130px;
+        width: 40%;
     }
 
     .suscribete{
@@ -642,6 +642,10 @@ footer p{
 }
 
 @media (max-width:500px){
+
+    main{
+        width: 100%;
+    }
     .buscador{
         display: none;
     }
@@ -658,4 +662,13 @@ footer p{
         justify-content: center;
         align-items: center;
     }
+
+    footer > p{
+        font-size: 14px;
+    }
+
+    .moneda > p{
+        font-size: 14px;
+    }
 }
+
